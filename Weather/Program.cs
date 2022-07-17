@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+// HttpClientExample example = new HttpClientExample();
+// await example.RunAsync();
+
+WeatherExample example = new WeatherExample();
+await example.RunAsync();
